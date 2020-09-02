@@ -2,7 +2,7 @@
   <div class="layout">
     <header class="header">
       <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+        <g-link class="home__link" to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
       <nav class="nav">
         <g-link class="nav__link" to="/">Home</g-link>
@@ -49,5 +49,15 @@ body {
 
 .nav__link {
   margin-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav__link.active--exact.active {
+  text-decoration: underline;
+}
+
+.home__link {
+  color: black;
 }
 </style>
