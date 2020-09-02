@@ -4,6 +4,7 @@
       <strong>
         <g-link class="home__link" to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
+      <g-image class="nav__logo" to="/" src="~/images/snowflake-45.svg" width="200" />
       <nav class="nav">
         <g-link class="nav__link" to="/">Home</g-link>
         <g-link class="nav__link" to="/code/">Code</g-link>
@@ -59,5 +60,11 @@ body {
 
 .home__link {
   color: black;
+}
+
+.nav__logo {
+  margin-right: auto;
+  padding-left: 10px;
+  animation: rotation 2s infinite linear;
 }
 </style>
