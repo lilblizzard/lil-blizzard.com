@@ -34,22 +34,22 @@ body {
 }
 
 .layout {
-  max-width: 760px;
+  max-width: 50rem;
   margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
+  margin-bottom: 1rem;
+  height: 5rem;
 }
 
 .nav__link {
-  margin-left: 20px;
+  margin-left: 1rem;
   text-decoration: none;
   color: black;
 }
@@ -60,7 +60,7 @@ body {
 
 .home__link {
   color: black;
-  padding-right: 5px;
+  padding-right: 0.4rem;
 }
 
 .nav__logo {
