@@ -60,11 +60,21 @@ body {
 
 .home__link {
   color: black;
+  padding-right: 5px;
 }
 
 .nav__logo {
   margin-right: auto;
-  padding-left: 10px;
-  animation: rotation 2s infinite linear;
+  animation: rotation 30s infinite linear;
+  transform-origin: center;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 </style>
