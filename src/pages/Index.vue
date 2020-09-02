@@ -22,5 +22,6 @@ export default {
   max-width: 100%;
   max-height: 20rem;
   object-fit: cover;
+  border-radius: 0.5rem;
 }
 </style>
