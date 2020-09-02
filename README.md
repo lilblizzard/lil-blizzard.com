@@ -7,9 +7,9 @@ This is my personal portfolio site. It's built with Gridsome.
 ### Page-Specific
 
 - [ ] Home page
-  - [ ] Responsive hero image
-    - [ ] Crop & stretch to fill width of navbar
-    - [ ] Adapt for mobile
+  - [x] Responsive hero image
+    - [x] Crop & stretch to fill width of navbar
+    - [x] Adapt for mobile
 - [ ] Code page
   - [ ] Sketch out general structure
   - [ ] Component breakdown
