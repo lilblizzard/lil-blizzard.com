@@ -22,7 +22,7 @@ This is my [personal portfolio](https://lil-blizzard.com/) site. It's built with
 
 ### Site-Wide
 
-- [ ] Update font types
+- [x] Update font types
 - [ ] Read page data from [Markdown](https://www.telerik.com/blogs/building-a-blog-with-vue-and-markdown-using-gridsome#displaying-the-post-layout).
 
 Icons made by [Freepik](https://www.flaticon.com/authors/freepik).
