@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1>Patrick Perkins</h1>
+    <h1 class="hero__title">Patrick Perkins</h1>
     <g-image class="hero__image" src="~/images/profile.jpg" />
     <p class="hero__text">
       a.k.a lil-blizzard. composer, programmer, designer based in philly.
@@ -20,6 +20,9 @@ export default {
 <style>
 .home-links a {
   margin-right: 1rem;
+}
+.hero__title {
+  margin-top: none;
 }
 .hero__image {
   max-width: 100%;

@@ -10,6 +10,9 @@
         src="~/images/snowflake-45.svg"
         width="200"
       />
+      <svg>
+        <line />
+      </svg>
       <nav class="nav">
         <g-link class="nav__link" to="/">Home</g-link>
         <g-link class="nav__link" to="/code/">Code</g-link>
@@ -46,10 +49,10 @@ body {
 }
 
 .header {
+  border-bottom: 1px solid rgba(83, 83, 83, 0.1);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1rem;
   height: 5rem;
 }
 
