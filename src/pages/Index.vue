@@ -3,7 +3,7 @@
     <h1 class="hero__title">Patrick Perkins</h1>
     <g-image class="hero__image" src="~/images/profile.jpg" />
     <p class="hero__text">
-      a.k.a lil-blizzard. composer, programmer, designer based in philly.
+      a.k.a lil blizzard - composer, programmer, designer based in philly.
       currently working with old books and new tech.
     </p>
   </Layout>
@@ -22,7 +22,10 @@ export default {
   margin-right: 1rem;
 }
 .hero__title {
-  margin-top: none;
+  font-size: 3rem;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .hero__image {
   max-width: 100%;
@@ -31,9 +34,11 @@ export default {
   border-radius: 0.5rem;
 }
 .hero__text {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   border: 1px solid rgba(83, 83, 83, 0.1);
   border-radius: 0.5rem;
   padding: 0.5rem;
+  margin: 0 auto;
+  margin-top: 0.5rem;
 }
 </style>
