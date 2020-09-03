@@ -2,9 +2,14 @@
   <div class="layout">
     <header class="header">
       <strong>
-        <g-link class="home__link" to="/">{{ $static.metadata.siteName }}</g-link>
+        <!-- <g-link class="home__link" to="/">{{ $static.metadata.siteName }}</g-link> -->
       </strong>
-      <g-image class="nav__logo" to="/" src="~/images/snowflake-45.svg" width="200" />
+      <g-image
+        class="nav__logo"
+        to="/"
+        src="~/images/snowflake-45.svg"
+        width="200"
+      />
       <nav class="nav">
         <g-link class="nav__link" to="/">Home</g-link>
         <g-link class="nav__link" to="/code/">Code</g-link>
@@ -26,8 +31,8 @@ query {
 
 <style>
 body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.5;
