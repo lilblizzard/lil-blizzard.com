@@ -20,6 +20,8 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
+  background-color: black;
+  color: white;
 }
 .layout {
   max-width: 50rem;

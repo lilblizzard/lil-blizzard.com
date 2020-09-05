@@ -13,13 +13,9 @@
   </div>
 </template>
 
-<script>
-export default {}
-</script>
-
 <style>
 .header {
-  border-bottom: 1px solid rgba(83, 83, 83, 0.1);
+  border-bottom: 1px solid white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,11 +25,12 @@ export default {}
   margin-right: auto;
   animation: rotation 30s infinite linear;
   transform-origin: center;
+  filter: invert(100%);
 }
 .nav__link {
   margin-left: 1rem;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .nav__link.active--exact.active {
   text-decoration: underline;
