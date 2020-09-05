@@ -35,7 +35,7 @@ export default {
 }
 .hero__text {
   font-size: 1.1rem;
-  border: 1px solid rgba(83, 83, 83, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 0.5rem;
   padding: 0.5rem;
   margin: 0 auto;
