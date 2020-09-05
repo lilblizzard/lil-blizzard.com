@@ -1,36 +1,18 @@
 <template>
   <div class="layout">
-    <header class="header">
-      <strong>
-        <!-- <g-link class="home__link" to="/">{{ $static.metadata.siteName }}</g-link> -->
-      </strong>
-      <g-image
-        class="nav__logo"
-        to="/"
-        src="~/images/snowflake-45.svg"
-        width="200"
-      />
-      <svg>
-        <line />
-      </svg>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/code/">Code</g-link>
-        <g-link class="nav__link" to="/music/">Music</g-link>
-        <g-link class="nav__link" to="/contact/">Contact</g-link>
-      </nav>
-    </header>
+    <Navbar />
     <slot />
   </div>
 </template>
 
-<static-query>
-query {
-  metadata {
-    siteName
-  }
+<script>
+import Navbar from '~/components/Navbar.vue'
+export default {
+  components: {
+    Navbar,
+  },
 }
-</static-query>
+</script>
 
 <style>
 body {
@@ -39,49 +21,10 @@ body {
   padding: 0;
   line-height: 1.5;
 }
-
 .layout {
   max-width: 50rem;
   margin: 0 auto;
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.header {
-  border-bottom: 1px solid rgba(83, 83, 83, 0.1);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 5rem;
-}
-
-.nav__link {
-  margin-left: 1rem;
-  text-decoration: none;
-  color: black;
-}
-
-.nav__link.active--exact.active {
-  text-decoration: underline;
-}
-
-.home__link {
-  color: black;
-  padding-right: 0.4rem;
-}
-
-.nav__logo {
-  margin-right: auto;
-  animation: rotation 30s infinite linear;
-  transform-origin: center;
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
 }
 </style>
