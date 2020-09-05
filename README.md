@@ -10,19 +10,15 @@ This is my [personal portfolio](https://lil-blizzard.com/) site. It's built with
   - [x] Responsive hero image
     - [x] Crop & stretch to fill width of navbar
     - [x] Adapt for mobile
+    - [ ] Component-ize hero
 - [ ] Code page
-  - [ ] Sketch out general structure
-  - [ ] Component breakdown
 - [ ] Music page
-  - [ ] Sketch out general structure
-  - [ ] Component breakdown
 - [ ] Contact page
-  - [ ] Sketch out general structure
-  - [ ] Component breakdown
 
 ### Site-Wide
 
 - [x] Update font types
+- [x] Invert colors
 - [ ] Create a design system
   - [ ] Add global spacing rules
   - [ ] Add global color rules
